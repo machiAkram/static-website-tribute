@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!-- on a déclaré que cette page est de type html et sa version 
+html 5 -->
+<html lang="fr">
+
+<head>
+    <!-- on a fixé la langue du document (français)-->
+    <meta charset="UTF-8"> <!-- pour spécifier l'encodage des caractères -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--pour contrôler la mise en page sur les navigateurs mobiles -->
+    <title>Bibliographie sélective</title>
+    <!--titre de la page (nom de la page dans le navigateur) -->
+    <link rel="stylesheet" href="../styles/style.css">
+    <!-- on lui a accordé une page CSS (style.css) qui se trouve dans le (dossier) styles pour la décoration(style)-->
+    <link rel="shortcut icon" href="../assets/pc-logo.png" />
+    <!--on a ajouté
+     une photo(pc-logo.png) dans l'entete comme un logo de la page qui se trouve dans le dossier (assets)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--pour pouvoir importer des icons(facebook-téléphone ...-->
+</head>
+
+<body>
+    <!-- dans le body on a declaré 2 navbars (nav-horisontale) et (nav-verticale)
+    et on a declaré des informations sur Milton Friedman et un tableau récapitulatif et on a le footer qui contient les moyens pour pouvoir nous contacter(Contact) et nos informations (About us) 
+ -->
+    <!-- si on trouve (title="") dans <a ...> ou dans <img ...> c'est pour que le   (title) sert a si on on met la souris sur l'image ou sur l'objet qui contient <a ...> (<li>-<i>) sans appuyer dessus va nous donnerce qu'on trouve dans le (title) c'est juste pour l' indication  -->
+    <!--<a> pour les liens  -->
+    <!--le (id) et (class) va nous servir beaucoup dans le style(CSS) et la difference entre eux c'est que (class) on peut   trouver le meme nom dans plusieurs tag mais le (id) c'est personalisé  )-->
+
+    <div id="nav-horisontale">
+        <!-- dans cette navbar on trouve [english-Français] pour choisir la langue et on trouve (contact) pour pouvoir nous contacter et (About us)pour avoir des informations sur nous-->
+        <nav>
+            <a href="./indexFR.html"><img id="logo" src="../assets/logo.png " title="La principale(Home)"></a>
+            <!-- on a ajouté un logo pour la page qui nous permet de revenir vers
+         la page (index) et le (title) sert a si on on met la souris sur le logo sans appuyer dessus va nous donner(main page (Home)) c'est juste pour l' indication -->
+            <!-- (active) pour la mettre en orange car comme si elle est selectionné -->
+            <ul>
+
+                <li><a href="bibliography.html" title="anglais">English</a></li>
+
+                <li class="active"><a href="bibliographie.html" title="french">Français</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <!--lien pour le id de div(contact) dans le footer de la meme page -->
+                <li><a href="#about_us">À propos de nous</a></li>
+                <!--lien pour le id de div(About us) dans le footer de la meme page-->
+            </ul>
+
+
+        </nav>
+
+    </div>
+
+
+    <div id="nav-verticale">
+        <!--dans cette navbar on trouve les grandes lignes de la vie de Milton Friedman -->
+        <nav>
+            <ul>
+                <!--
+                <ul>(unordred list = pour la liste sans l'ordre [sans num])     <li> (list item = élement de la liste)  
+                (href) pour les liens 
+                (title)pour l 'indication et ce qui est ecrit en blanc c'est le nom de la <li>   -->
+                <li><a href="./indexFR.html" title="La principale(Home)">La principale</a></li>
+                <li><a href="./jeunesse.html" title="jeunesse">Jeunesse</a></li>
+                <li><a href="./service publique.html" title="Service Publique">Service Public </a></li>
+                <li><a href="./la carrière universitaire.html"
+                        title="la carrière universitaire(Early years - University of Chicago- A  Theory of the Consumption Function- Capitalism and Freedom)">La
+                        Carière acadimique</a></li>
+                <li><a href="./Vie personnelle.html" title="La Vie personnelle (Retirement - Later life - Death)">La Vie
+                        personnelle</a></li>
+                <li><a href="./Contributions savantes.html"
+                        title="Contributions savantes (Economics - Statistics)">Contributions savantes</a></li>
+                <li><a href="./Positions de politique publique.html" title="Positions de politique publique (positions Federal Reserve and monetary  policy - Exchange rates 
+- School choice - Libertarianism and the Republican Party - Economic freedom)
+">Positions de politique publique</a></li>
+                <li><a href="./honneurs.html" title="Honneurs, reconnaissance et héritage">Honneurs, reconnaissance et
+                        héritage</a></li>
+                <li><a href="./critique.html" title="Critique">Critique</a></li>
+                <li class="active"><a href="./bibliographie.html" title="Bibliographie sélective">Bibliographie
+                        sélective
+                    </a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+
+    <main>
+        <header>
+            <!-- le header est une section d'introduction et contient dans notre projet 2 titre(de type <h1>)-->
+            <h1 class="milton">Milton Friedman</h1>
+            <h1>bibliographie</h1>
+        </header>
+        <ul>
+            <li>A Theory of the Consumption Function (1957) ISBN 1614278121.</li>
+            <li>A Program for Monetary Stability (Université de Fordham Press, 1960) 110 pp.</li>
+            <li>Capitalism and Freedom (1962), highly influential series of essays that established Friedman's position
+                on major issues of public policy</li>
+            <li>A Monetary History of the United States, 1867–1960, avec Anna J. Schwartz, 1963; part 3 reprinted as The
+                Great Contraction</li>
+            <li>"The Role of Monetary Policy." American Economic Review, Vol. 58, No. 1 (Mar. 1968), pp. 1–17 JSTOR
+                presidential address to American Economics Association</li>
+            <li>"Inflation and Unemployment: Nobel Lecture", 1977, Journal of Political Economy. Vol. 85, pp. 451–72
+            </li>
+            <li>Free to Choose: A Personal Statement, with Rose Friedman, (1980), highly influential restatement of
+                policy views</li>
+            <li>The Essence of Friedman, essays edited by Kurt R. Leube, (1987) (ISBN 0-8179-8662-6)</li>
+            <li>Two Lucky People: Memoirs (with Rose Friedman) ISBN 0-226-26414-9 (1998)</li>
+            <li>Milton Friedman on Economics: Selected Papers par Milton Friedman, écrit par Gary S. Becker (2008)</li>
+        </ul>
+    </main>
+
+    <aside>
+
+        <table>
+            <!-- dans ce tableau on trouve des brèves informations sur Milton Friedman (date de naissance -date de decée -activités ....) -->
+            <!-- dans le tableau <table> on trouve des lignes  <tr> et des colonnes soit en gras <th> sinon <td>. dans <td> on trouve le colspan par exemple (clospan="2")qui sert a dire que cette colonne va nous prendre la place de 2 colonnes,et on trouve rowspan par exemple (rowspan="5")qui sert a dire que cette colonne(la case) va nous prendre la place de 5 lignes et on trouve (align) pour determiner ou est-ce-qu'on l'a mis (sa position[right-left-center], et on trouve (bgcolor) c'est pour la couleur du background (du l'arrière plan)) ,on trouve  aussi <b> c'est pour mettre la phrase en gras   -->
+            <tbody>
+                <tr id="b">
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>Milton Friedman</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><img id="side-portrait" src="../assets/Milton_Friedman_1976.jpg"
+                            alt="Milton Friedman" title="Photo de Milton Friedman"></td>
+                </tr>
+                <!--pour <img> on trouve le id pour la manipuler dans le css (src) c'est la source (l'emplacement de l'image) (alt) si on l'a trouve pas va s'afficher se qu il y a dans le (alt) -->
+
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>Biographie</b></td>
+                </tr>
+
+                <tr>
+                    <th> Naissance </th>
+
+                    <td> 31 juillet 1912. Brooklyn, New York, États-Unis </td>
+                </tr>
+
+                <tr>
+
+                    <th>Décès</th>
+
+                    <td> 16 novembre 2006 (94 ans). San Francisco, Californie, États-Unis </td>
+                </tr>
+
+                <tr>
+
+                    <th> Nationalité </th>
+
+                    <td> Américain </td>
+                </tr>
+
+                <tr>
+
+                    <th> Conjointe </th>
+
+                    <td> Rose Friedman </td>
+                </tr>
+
+                <tr>
+
+                    <th> A travaillé pour </th>
+
+                    <td> Chicago School </td>
+                </tr>
+
+                <tr>
+
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"> <b> Activités </b> </td>
+                </tr>
+
+                <tr>
+
+                    <th> Activités </th>
+
+                    <td> Économiste, écrivain, statisticien, professeur d'université, essayiste </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA">
+                        <b> Distinctions </b> </td>
+                </tr>
+
+                <tr>
+                    <td rowspan="5" align="left" valign="top"><b>Distinctions</b></td>
+                    <td>-Médaille John Bates Clark (1951)</td>
+                </tr>
+                <tr>
+                    <td>-Membre de l'Académie nationale des sciences (1973)
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>-Prix Nobel d'économie (1976)</td>
+                </tr>
+                <tr>
+                    <td>-Médaille présidentielle de la Liberté (1988)</td>
+                </tr>
+                <tr>
+                    <td>-National Medal of Science (1988)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"> <b> Signature </b> </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center"> <img id="side-portrait" src="Milton_friedman_signature.png"
+                            alt="Milton Friedman" title=" signature de Milton friedman"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </aside>
+    <footer>
+        <!-- pour le footer c'est la derniere partie de notre code et de notre page et qui se situe tout-en-bas de la page qui sert a nous donner des infos sur l'éditeur de la page et les moyens de le contacter (telephone - social media)  -->
+        <div id="footer">
+            <div id="about_us">
+                <h3>À propos de nous</h3>
+                <p>BOUSSEKSOU Yacine et GUENDOUZ Akrem Mohamed 2 étudiants Algeriens de l'USTHB qui composent un binome
+                    ambitieux qui cherche a faciliter l'apprentissage et le rendre agréable et c'est pour cela on a
+                    concu ce site
+                </p>
+            </div>
+            <div id="Contact">
+                <ul>
+                    <li>
+                        <h3>Contact</h3>
+                    </li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i> bousseksou.guendouz@gmail.com</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>
+                        +213 697230260</li>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> EL MADANIA -ALGER- ALGERIE</li>
+                </ul>
+            </div>
+
+            <div id="media">
+                <a href="https://www.facebook.com/"> <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/login?lang=fr"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="https://myaccount.google.com/"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+
+
+
+
+
+            </div>
+
+
+            <div id="small">
+
+
+                <small>all content on this mockup website is retrieved form the milton friedman page on Wikipedia®, and
+                    is not
+                    mine.</small>
+                <small> 2020 Copyright. All Rights Reserved. La dernière modification de cette page a été faite le 7
+                    avril 2020 à 23:12.
+                    © 2020 Bousseksou_Guendouz</small>
+            </div>
+
+
+
+        </div>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>

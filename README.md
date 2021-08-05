@@ -1,0 +1,1 @@
+static website: milton friedman tribute (still needs a proper readme)

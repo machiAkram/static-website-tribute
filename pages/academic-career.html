@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<!-- on a déclaré que cette page est de type html et sa version 
+html 5 -->
+<html lang="en">
+
+<head>
+    <!-- on a fixé la langue du document (anglais)-->
+    <meta charset="UTF-8"> <!-- pour spécifier l'encodage des caractères -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--pour contrôler la mise en page sur les navigateurs mobiles -->
+    <title>Public service</title>
+    <!--titre de la page (nom de la page dans le navigateur) -->
+    <link rel="stylesheet" href="../styles/style.css">
+    <!-- on lui a accordé une page CSS (style.css) qui se trouve dans le (dossier) styles pour la décoration(style)-->
+    <link rel="shortcut icon" href="../assets/pc-logo.png" />
+    <!--on a ajouté
+     une photo(pc-logo.png) dans l'entete comme un logo de la page qui se trouve dans le dossier (assets)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--pour pouvoir importer des icons(facebook-téléphone ...-->
+</head>
+
+<body>
+    <!-- dans le body on a declaré 2 navbars (nav-horisontale) et (nav-verticale)
+    et on a declaré des informations sur Milton Friedman et un tableau récapitulatif et on a le footer qui contient les moyens pour pouvoir nous contacter(Contact) et nos informations (About us) 
+ -->
+    <!-- si on trouve (title="") dans <a ...> ou dans <img ...> c'est pour que le   (title) sert a si on on met la souris sur l'image ou sur l'objet qui contient <a ...> (<li>-<i>) sans appuyer dessus va nous donnerce qu'on trouve dans le (title) c'est juste pour l' indication  -->
+    <!--<a> pour les liens  -->
+    <!--le (id) et (class) va nous servir beaucoup dans le style(CSS) et la difference entre eux c'est que (class) on peut   trouver le meme nom dans plusieurs tag mais le (id) c'est personalisé  )-->
+
+    <div id="nav-horisontale">
+        <!-- dans cette navbar on trouve [english-Français] pour choisir la langue et on trouve (contact) pour pouvoir nous contacter et (About us)pour avoir des informations sur nous-->
+        <nav>
+            <a href="../index.html"><img id="logo" src="../assets/logo.png " title="main page (Home)"></a>
+            <!-- on a ajouté un logo pour la page qui nous permet de revenir vers
+         la page (index) et le (title) sert a si on on met la souris sur le logo sans appuyer dessus va nous donner(main page (Home)) c'est juste pour l' indication -->
+            <ul>
+
+                <li class="active"><a href="academic-career.html" title="anglais">English</a></li>
+                <!-- (active) pour la mettre en bleu car en est sur une page en anglais -->
+                <li><a href="la carrière universitaire.html" title="french">Français</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <!--lien pour le id de div(contact) dans le footer de la meme page -->
+                <li><a href="#about_us">About us</a></li>
+                <!--lien pour le id de div(About us) dans le footer de la meme page-->
+            </ul>
+
+
+        </nav>
+
+    </div>
+
+
+    <div id="nav-verticale">
+        <!--dans cette navbar on trouve les grandes lignes de la vie de Milton Friedman -->
+        <nav>
+            <ul>
+                <!--
+                <ul>(unordred list = pour la liste sans l'ordre [sans num])     <li> (list item = élement de la liste)  
+                (href) pour les liens 
+                (title)pour l 'indication et ce qui est ecrit en blanc c'est le nom de la <li>   -->
+                <li><a href="../index.html" title="main page (Home)">Home</a></li>
+                <li><a href="./early-life.html" title="Early life">Early life</a></li>
+                <li><a href="./public-service.html" title="Public service">Public service</a></li>
+                <li class="active"><a href="./academic-career.html"
+                        title="Academic career(Early years - University of Chicago- A  Theory of the Consumption Function- Capitalism and Freedom)">Academic
+                        career</a></li>
+                <li><a href="./personal-life.html" title="Personal life (Retirement - Later life - Death)">Personal
+                        life</a></li>
+                <li><a href="./scholarly-contributions.html"
+                        title="Scholarly contributions (Economics - Statistics)">Scholarly contributions</a></li>
+                <li><a href="./policy-positions.html" title="Public policy (positions Federal Reserve and monetary  policy - Exchange rates 
+- School choice - Libertarianism and the Republican Party - Economic freedom)
+">Public policy positions</a></li>
+                <li><a href="./honors.html" title="Honors, recognition and legacy">Honors, recognition and legacy</a>
+                </li>
+                <li><a href="./criticism.html" title="Criticism">Criticism</a></li>
+                <li><a href="./bibliography.html" title="Selected bibliography">Selected bibliography
+                    </a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+    <main>
+        <header>
+            <!-- le header est une section d'introduction et contient dans notre projet 2 titre(de type <h1>)-->
+            <h1 class="milton">Milton Friedman</h1>
+            <h1>Academic career</h1>
+        </header>
+        <section>
+            <header>
+                <h2>Early years</h2>
+            </header>
+            <p>
+                In 1940, Friedman accepted a position at the University of Wisconsin–Madison, but left because of
+                differences with faculty regarding United States involvement in World War II. Friedman believed the
+                United States should enter the war. In 1943, Friedman joined the Division of War Research at
+                Columbia University (headed by W. Allen Wallis and Harold Hotelling), where he spent the rest of World
+                War II working as a mathematical statistician, focusing on problems of weapons design, military tactics,
+                and metallurgical experiments.
+            </p>
+            <p>
+                In 1945, Friedman submitted Incomes from Independent Professional Practice (co-authored with Kuznets and
+                completed during 1940) to Columbia as his doctoral dissertation. The university awarded him a PhD in
+                1946. Friedman spent the 1945–1946 academic year teaching at the University of Minnesota (where
+                his friend George Stigler was employed). On February 12, 1945, his son, David D. Friedman was born.
+            </p>
+        </section>
+        <section>
+            <header>
+                <h2>University of Chicago</h2>
+            </header>
+            <p>
+                In 1946, Friedman accepted an offer to teach economic theory at the University of Chicago (a position
+                opened by departure of his former professor Jacob Viner to Princeton University). Friedman would work
+                for the University of Chicago for the next 30 years. There he contributed to the establishment of an
+                intellectual community that produced a number of Nobel Prize winners, known collectively as the Chicago
+                school of economics.
+            </p>
+            <p>
+                At that time, Arthur F. Burns, who was then the head of the National Bureau of Economic Research, asked
+                Friedman to rejoin the Bureau's staff. He accepted the invitation, and assumed responsibility for the
+                Bureau's inquiry into the role of money in the business cycle. As a result, he initiated the "Workshop
+                in Money and Banking" (the "Chicago Workshop"), which promoted a revival of monetary studies. During the
+                latter half of the 1940s, Friedman began a collaboration with Anna Schwartz, an economic historian at
+                the Bureau, that would ultimately result in the 1963 publication of a book co-authored by Friedman and
+                Schwartz, <i>A Monetary History of the United States, 1867–1960.</i>
+            </p>
+            <p>
+                Friedman spent the 1954–1955 academic year as a Fulbright Visiting Fellow at Gonville and Caius College,
+                Cambridge. At the time, the Cambridge economics faculty was divided into a Keynesian majority (including
+                Joan Robinson and Richard Kahn) and an anti-Keynesian minority (headed by Dennis Robertson). Friedman
+                speculated that he was invited to the fellowship, because his views were unacceptable to both of the
+                Cambridge factions. Later his weekly columns for Newsweek magazine (1966–84) were well read and
+                increasingly influential among political and business people, and helped earn the magazine a Gerald
+                Loeb Special Award in 1968. From 1968 to 1978, he and Paul Samuelson participated in the Economics
+                Cassette Series, a biweekly subscription series where the economist would discuss the days' issues for
+                about a half-hour at a time.
+            </p>
+            <h3>A Theory of the Consumption Function</h3>
+            <p>
+                One of Milton Friedman's most popular works,<i> A Theory of the Consumption Function</i>, challenged
+                traditional Keynesian viewpoints about the household. This work was originally published in 1957 by the
+                Princeton University Press, and it reanalysed the relationship displayed "between aggregate consumption
+                or aggregate savings and aggregate income." Keynes believed that people would modify their
+                household consumption expenditures to relate to their existing income levels. Friedman's research
+                introduced the term "permanent income" to the world, which was the average of a household's expected
+                income over several years, and he also developed the permanent income hypothesis. Milton Friedman's
+                research changed how economists interpreted the consumption function, and his work pushed the idea that
+                current income was not the only factor that affected people's adjustment household consumption
+                expenditures. Instead, expected income levels also affected how households would change their
+                consumption expenditures. Friedman's contributions strongly influenced research on consumer behavior,
+                and he further defined how to predict consumption smoothing, which contradicts Keynes' marginal
+                propensity to consume. Although this work presented many controversial points of view that differed from
+                existing viewpoints established by Keynes, <i>A Theory of the Consumption Function</i> helped Friedman
+                gain
+                respect in the field of economics.
+            </p>
+            <h3>Capitalism and Freedom</h3>
+            <p>
+                His <i>Capitalism and Freedom</i> brought him national and international attention outside academia. It
+                was
+                published in 1962 by the University of Chicago Press and consists of essays that used non-mathematical
+                economic models to explore issues of public policy. It sold over 400,000 copies in the first
+                eighteen years and more than half a million since 1962. It has been translated into eighteen
+                languages. Friedman talks about the need to move to a classically liberal society, that free markets
+                would help nations and individuals in the long-run and fix the efficiency problems currently faced by
+                the United States and other major countries of the 1950s and 1960s. He goes through the chapters
+                specifying a specific issue in each respective chapter from the role of government and money supply to
+                social welfare programs to a special chapter on occupational licensure. Friedman concludes Capitalism
+                and Freedom with his "classical liberal" (more accurately, libertarian) stance, that government should
+                stay out of matters that do not need and should only involve itself when absolutely necessary for the
+                survival of its people and the country. He recounts how the best of a country's abilities come from its
+                free markets while its failures come from government intervention.
+            </p>
+        </section>
+    </main>
+
+
+    <aside>
+
+        <table>
+            <!-- dans ce tableau on trouve des brèves informations sur Milton Friedman (date de naissance -date de decée -activités ....) -->
+            <!-- dans le tableau <table> on trouve des lignes  <tr> et des colonnes soit en gras <th> sinon <td>. dans <td> on trouve le colspan par exemple (clospan="2")qui sert a dire que cette colonne va nous prendre la place de 2 colonnes,et on trouve rowspan par exemple (rowspan="5")qui sert a dire que cette colonne(la case) va nous prendre la place de 5 lignes et on trouve (align) pour determiner ou est-ce-qu'on l'a mis (sa position[right-left-center], et on trouve (bgcolor) c'est pour la couleur du background (du l'arrière plan)) ,on trouve  aussi <b> c'est pour mettre la phrase en gras   -->
+            <tbody>
+                <tr id="b">
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>Milton Friedman</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><img id="side-portrait" src="../assets/Milton_Friedman_1976.jpg"
+                            alt="Milton Friedman" title="Photograph of Milton Friedman"></td>
+                </tr>
+                <!--pour <img> on trouve le id pour la manipuler dans le css (src) c'est la source (l'emplacement de l'image) (alt) si on l'a trouve pas va s'afficher se qu il y a dans le (alt) -->
+
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>Biography</b></td>
+                </tr>
+                <tr height="2">
+                    <th>Born</th>
+                    <td>July 31, 1912. Brooklyn, New York, U.S.</td>
+                </tr>
+                <tr>
+                    <th>Died</th>
+                    <td>November 16, 2006 (aged 94). San Francisco, California, U.S.</td>
+                </tr>
+                <tr>
+                    <th>Nationality</th>
+                    <td>American</td>
+                </tr>
+
+
+
+                <tr>
+                    <th>Spouse</th>
+                    <td>Rose Friedman</td>
+                </tr>
+                <tr>
+                    <th>School or tradition</th>
+                    <td>Chicago School</td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>Activities</b></td>
+                </tr>
+                <tr>
+                    <th>Activities</th>
+                    <td>Economist,writer, statistician, university professor,essayist</td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>Awards</b></td>
+                </tr>
+                <tr>
+                    <td rowspan="5"><b>Awards</b></td>
+                    <td>-Member of the National Academy of Sciences (1973)</td>
+                </tr>
+                <tr>
+                    <td>-National Medal of Science (1988)
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>-Presidential Medal of Freedom (1988)</td>
+                </tr>
+                <tr>
+                    <td>-Nobel Memorial Prize in Economic Sciences (1976)</td>
+                </tr>
+                <tr>
+                    <td>-John Bates Clark Medal (1951)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>signature</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><img id="side-portrait" src="Milton_friedman_signature.png"
+                            alt="Milton Friedman" title="Milton friedman signature  "></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <!-- pour le footer c'est la derniere partie de notre code et de notre page et qui se situe tout-en-bas de la page qui sert a nous donner des infos sur l'éditeur de la page et les moyens de le contacter (telephone - social media)  -->
+        <div id="footer">
+            <div id="about_us">
+                <h3>About us</h3>
+                <p>BOUSSEKSOU Yacine et GUENDOUZ Akrem Mohamed 2 étudiants Algeriens de l'USTHB qui composent un binome
+                    ambitieux qui cherche a faciliter l'apprentissage et le rendre agréable et c'est pour cela on a
+                    concu ce site</p>
+
+            </div>
+            <div id="Contact">
+                <ul>
+                    <li>
+                        <h3>Contact</h3>
+                    </li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i> bousseksou.guendouz@gmail.com</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>
+                        +213 697230260</li>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> EL MADANIA -ALGER- ALGERIE</li>
+                </ul>
+            </div>
+
+            <div id="media">
+                <a href="https://www.facebook.com/"> <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/login?lang=fr"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="https://myaccount.google.com/"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+
+
+
+
+
+            </div>
+
+
+            <div id="small">
+
+
+                <small>all content on this mockup website is retrieved form the milton friedman page on Wikipedia®, and
+                    is not
+                    mine.</small>
+                <small> 2020 Copyright. All Rights Reserved. La dernière modification de cette page a été faite le 7
+                    avril 2020 à 23:12.
+                    © 2020 Bousseksou_Guendouz</small>
+            </div>
+
+
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

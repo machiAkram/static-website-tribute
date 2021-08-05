@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<!-- on a déclaré que cette page est de type html et sa version 
+html 5 -->
+<html lang="fr">
+
+<head>
+    <!-- on a fixé la langue du document (français)-->
+    <meta charset="UTF-8"> <!-- pour spécifier l'encodage des caractères -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--pour contrôler la mise en page sur les navigateurs mobiles -->
+    <title>Vie personnelle</title>
+    <!--titre de la page (nom de la page dans le navigateur) -->
+    <link rel="stylesheet" href="../styles/style.css">
+    <!-- on lui a accordé une page CSS (style.css) qui se trouve dans le (dossier) styles pour la décoration(style)-->
+    <link rel="shortcut icon" href="../assets/pc-logo.png" />
+    <!--on a ajouté
+     une photo(pc-logo.png) dans l'entete comme un logo de la page qui se trouve dans le dossier (assets)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--pour pouvoir importer des icons(facebook-téléphone ...-->
+</head>
+
+<body>
+    <!-- dans le body on a declaré 2 navbars (nav-horisontale) et (nav-verticale)
+    et on a declaré des informations sur Milton Friedman et un tableau récapitulatif et on a le footer qui contient les moyens pour pouvoir nous contacter(Contact) et nos informations (About us) 
+ -->
+    <!-- si on trouve (title="") dans <a ...> ou dans <img ...> c'est pour que le   (title) sert a si on on met la souris sur l'image ou sur l'objet qui contient <a ...> (<li>-<i>) sans appuyer dessus va nous donnerce qu'on trouve dans le (title) c'est juste pour l' indication  -->
+    <!--<a> pour les liens  -->
+    <!--le (id) et (class) va nous servir beaucoup dans le style(CSS) et la difference entre eux c'est que (class) on peut   trouver le meme nom dans plusieurs tag mais le (id) c'est personalisé  )-->
+
+    <div id="nav-horisontale">
+        <!-- dans cette navbar on trouve [english-Français] pour choisir la langue et on trouve (contact) pour pouvoir nous contacter et (About us)pour avoir des informations sur nous-->
+        <nav>
+            <a href="./indexFR.html"><img id="logo" src="../assets/logo.png " title="La principale(Home)"></a>
+            <!-- on a ajouté un logo pour la page qui nous permet de revenir vers
+         la page (index) et le (title) sert a si on on met la souris sur le logo sans appuyer dessus va nous donner(main page (Home)) c'est juste pour l' indication -->
+            <!-- (active) pour la mettre en orange car comme si elle est selectionné -->
+            <ul>
+
+                <li><a href="personal-life.html" title="anglais">English</a></li>
+
+                <li class="active"><a href="Vie personnelle.html" title="french">Français</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <!--lien pour le id de div(contact) dans le footer de la meme page -->
+                <li><a href="#about_us">À propos de nous</a></li>
+                <!--lien pour le id de div(About us) dans le footer de la meme page-->
+            </ul>
+
+
+        </nav>
+
+    </div>
+
+
+    <div id="nav-verticale">
+        <!--dans cette navbar on trouve les grandes lignes de la vie de Milton Friedman -->
+        <nav>
+            <ul>
+                <!--
+                <ul>(unordred list = pour la liste sans l'ordre [sans num])     <li> (list item = élement de la liste)  
+                (href) pour les liens 
+                (title)pour l 'indication et ce qui est ecrit en blanc c'est le nom de la <li>   -->
+                <li><a href="./indexFR.html" title="La principale(Home)">La principale</a></li>
+                <li><a href="./jeunesse.html" title="jeunesse">Jeunesse</a></li>
+                <li><a href="./service publique.html" title="Service Publique">Service Public </a></li>
+                <li><a href="./la carrière universitaire.html"
+                        title="la carrière universitaire(Early years - University of Chicago- A  Theory of the Consumption Function- Capitalism and Freedom)">La
+                        Carière acadimique</a></li>
+                <li class="active"><a href="./Vie personnelle.html"
+                        title="La Vie personnelle (Retirement - Later life - Death)">La Vie personnelle</a></li>
+                <li><a href="./Contributions savantes.html"
+                        title="Contributions savantes (Economics - Statistics)">Contributions savantes</a></li>
+                <li><a href="./Positions de politique publique.html" title="Positions de politique publique (positions Federal Reserve and monetary  policy - Exchange rates 
+- School choice - Libertarianism and the Republican Party - Economic freedom)
+">Positions de politique publique</a></li>
+                <li><a href="./honneurs.html" title="Honneurs, reconnaissance et héritage">Honneurs, reconnaissance et
+                        héritage</a></li>
+                <li><a href="./critique.html" title="Critique">Critique</a></li>
+                <li><a href="./bibliographie.html" title="Bibliographie sélective">Bibliographie sélective
+                    </a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+    <main>
+        <header>
+            <!-- le header est une section d'introduction et contient dans notre projet 2 titre(de type <h1>)-->
+            <h1 class="milton">Milton Friedman</h1>
+            <h1> Vie personnelle </h1>
+        </header>
+        <section>
+            <header>
+                <h2>Retraite</h2>
+            </header>
+            <p>
+                En 1977, à l'âge de 65 ans, Friedman a pris sa retraite de l'Université de Chicago après
+                y avoir enseigné pendant 30
+                ans. Lui et sa femme ont déménagé à San Francisco, où il est devenu chercheur invité à
+                la Réserve fédérale
+                Banque de San Francisco. À partir de 1977, il est affilié à la Hoover Institution de
+                Stanford
+                Université. Au cours de la même année, Friedman a été approché par le Free To Choose
+                Network et a été invité à
+                créer un programme télévisé présentant sa philosophie économique et sociale.
+            </p>
+            <p>
+                Les Friedman ont travaillé sur ce projet pendant les trois prochaines années, et en
+                1980, la série en dix parties,
+                intitulé <i> Libre de choisir </i>, a été diffusé par le Public Broadcasting Service
+                (PBS). Le livre d'accompagnement
+                à la
+                (co-écrite par Milton et sa femme, Rose Friedman), également intitulée <i> Libre de
+                    choisir </i>, était la
+                best-seller non-fiction de 1980 et a depuis été traduit en 14 langues.
+            </p>
+            <p>
+                Friedman a été conseiller officieux de Ronald Reagan pendant sa campagne présidentielle
+                de 1980, et
+                puis a siégé au Conseil consultatif de politique économique du président pour le reste
+                de l'administration Reagan.
+                Ebenstein dit que Friedman était "le" gourou "de l'administration Reagan." En 1988, il a
+                reçu le
+                La Médaille nationale des sciences et Reagan l'ont honoré de la Médaille présidentielle
+                de la liberté.
+            </p>
+            <p>
+                Friedman est connu aujourd'hui comme l'un des économistes les plus influents du XXe
+                siècle. Tout au long de
+                Dans les années 1980 et 1990, Friedman a continué à écrire des éditoriaux et à
+                apparaître à la télévision. Il a fait plusieurs
+                visites en Europe de l'Est et en Chine, où il a également conseillé des gouvernements.
+                Il a également été pendant de nombreuses années un
+                Administrateur de la Philadelphia Society.
+            </p>
+        </section>
+        <section>
+            <header>
+                <h2> Plus tard dans la vie </h2>
+            </header>
+            <p>
+                Selon un article publié en 2007 dans le magazine <i> Commentary </i>, ses "parents
+                étaient des juifs modérément observateurs,
+                mais
+                Friedman, après une explosion intense de piété infantile, a complètement rejeté la
+                religion. "Il a décrit
+                lui-même comme agnostique. Friedman a beaucoup écrit sur sa vie et ses expériences, en
+                particulier en 1998
+                dans ses mémoires avec sa femme, Rose, intitulé <i> Two Lucky People. </i>
+            </p>
+        </section>
+        <section>
+            <header>
+                <h2> Mort </h2>
+            </header>
+            <p>
+                Friedman est décédé d'une insuffisance cardiaque à l'âge de 94 ans à San Francisco le 16
+                novembre 2006. Il était
+                encore un économiste qui effectue des recherches économiques originales; sa dernière
+                chronique a été publiée dans <i> The
+                    Wall Street Journal </i> le lendemain de sa mort. Il a été survécu par sa femme
+                (décédée le 18 août
+                2009) et leurs deux enfants, David, connu pour le livre anarcho-capitaliste <i> The
+                    Machinery of Freedom </i>, et
+                expert en ponts Jan Martel.
+            </p>
+        </section>
+    </main>
+
+
+    <aside>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>Milton Friedman</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><img id="side-portrait" src="../assets/Milton_Friedman_1976.jpg"
+                            alt="Milton Friedman" title="Photo de Milton Friedman"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>Biographie</b></td>
+                </tr>
+
+                <tr>
+                    <th> Naissance </th>
+
+                    <td> 31 juillet 1912. Brooklyn, New York, États-Unis </td>
+                </tr>
+
+                <tr>
+
+                    <th>Décès</th>
+
+                    <td> 16 novembre 2006 (94 ans). San Francisco, Californie, États-Unis </td>
+                </tr>
+
+                <tr>
+
+                    <th> Nationalité </th>
+
+                    <td> Américain </td>
+                </tr>
+
+                <tr>
+
+                    <th> Conjointe </th>
+
+                    <td> Rose Friedman </td>
+                </tr>
+
+                <tr>
+
+                    <th> A travaillé pour </th>
+
+                    <td> Chicago School </td>
+                </tr>
+
+                <tr>
+
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"> <b> Activités </b> </td>
+                </tr>
+
+                <tr>
+
+                    <th> Activités </th>
+
+                    <td> Économiste, écrivain, statisticien, professeur d'université, essayiste </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA">
+                        <b> Distinctions </b> </td>
+                </tr>
+
+                <tr>
+                    <td rowspan="5" align="left" valign="top"><b>Distinctions</b></td>
+                    <td>-Médaille John Bates Clark (1951)</td>
+                </tr>
+                <tr>
+                    <td>-Membre de l'Académie nationale des sciences (1973)
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>-Prix Nobel d'économie (1976)</td>
+                </tr>
+                <tr>
+                    <td>-Médaille présidentielle de la Liberté (1988)</td>
+                </tr>
+                <tr>
+                    <td>-National Medal of Science (1988)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"> <b> Signature </b> </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center"> <img id="side-portrait" src="Milton_friedman_signature.png"
+                            alt="Milton Friedman" title=" signature de Milton friedman"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </aside>
+    <footer>
+        <!-- pour le footer c'est la derniere partie de notre code et de notre page et qui se situe tout-en-bas de la page qui sert a nous donner des infos sur l'éditeur de la page et les moyens de le contacter (telephone - social media)  -->
+        <div id="footer">
+            <div id="about_us">
+                <h3>À propos de nous</h3>
+                <p>BOUSSEKSOU Yacine et GUENDOUZ Akrem Mohamed 2 étudiants Algeriens de l'USTHB qui composent un binome
+                    ambitieux qui cherche a faciliter l'apprentissage et le rendre agréable et c'est pour cela on a
+                    concu ce site
+                </p>
+
+            </div>
+            <div id="Contact">
+                <ul>
+                    <li>
+                        <h3>Contact</h3>
+                    </li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i> bousseksou.guendouz@gmail.com</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>
+                        +213 697230260</li>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> EL MADANIA -ALGER- ALGERIE</li>
+                </ul>
+            </div>
+
+            <div id="media">
+                <a href="https://www.facebook.com/"> <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/login?lang=fr"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="https://myaccount.google.com/"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+
+
+
+
+
+            </div>
+
+
+            <div id="small">
+
+
+                <small>all content on this mockup website is retrieved form the milton friedman page on Wikipedia®, and
+                    is not
+                    mine.</small>
+                <small> 2020 Copyright. All Rights Reserved. La dernière modification de cette page a été faite le 7
+                    avril 2020 à 23:12.
+                    © 2020 Bousseksou_Guendouz</small>
+            </div>
+
+
+
+        </div>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>

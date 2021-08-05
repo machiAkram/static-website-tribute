@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<!-- on a déclaré que cette page est de type html et sa version 
+html 5 -->
+<html lang="en">
+
+<head>
+    <!-- on a fixé la langue du document (anglais)-->
+    <meta charset="UTF-8"> <!-- pour spécifier l'encodage des caractères -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--pour contrôler la mise en page sur les navigateurs mobiles -->
+    <title>Public service</title>
+    <!--titre de la page (nom de la page dans le navigateur) -->
+    <link rel="stylesheet" href="../styles/style.css">
+    <!-- on lui a accordé une page CSS (style.css) qui se trouve dans le (dossier) styles pour la décoration(style)-->
+    <link rel="shortcut icon" href="../assets/pc-logo.png" />
+    <!--on a ajouté
+     une photo(pc-logo.png) dans l'entete comme un logo de la page qui se trouve dans le dossier (assets)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--pour pouvoir importer des icons(facebook-téléphone ...-->
+</head>
+
+<body>
+    <!-- dans le body on a declaré 2 navbars (nav-horisontale) et (nav-verticale)
+    et on a declaré des informations sur Milton Friedman et un tableau récapitulatif et on a le footer qui contient les moyens pour pouvoir nous contacter(Contact) et nos informations (About us) 
+ -->
+    <!-- si on trouve (title="") dans <a ...> ou dans <img ...> c'est pour que le   (title) sert a si on on met la souris sur l'image ou sur l'objet qui contient <a ...> (<li>-<i>) sans appuyer dessus va nous donnerce qu'on trouve dans le (title) c'est juste pour l' indication  -->
+    <!--<a> pour les liens  -->
+    <!--le (id) et (class) va nous servir beaucoup dans le style(CSS) et la difference entre eux c'est que (class) on peut   trouver le meme nom dans plusieurs tag mais le (id) c'est personalisé  )-->
+
+    <div id="nav-horisontale">
+        <!-- dans cette navbar on trouve [english-Français] pour choisir la langue et on trouve (contact) pour pouvoir nous contacter et (About us)pour avoir des informations sur nous-->
+        <nav>
+            <a href="../index.html"><img id="logo" src="../assets/logo.png " title="main page (Home)"></a>
+            <!-- on a ajouté un logo pour la page qui nous permet de revenir vers
+         la page (index) et le (title) sert a si on on met la souris sur le logo sans appuyer dessus va nous donner(main page (Home)) c'est juste pour l' indication -->
+            <ul>
+
+                <li class="active"><a href="./criticism.html" title="anglais">English</a></li>
+                <!-- (active) pour la mettre en bleu car en est sur une page en anglais -->
+                <li><a href="./critique.html" title="french">Français</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <!--lien pour le id de div(contact) dans le footer de la meme page -->
+                <li><a href="#about_us">About us</a></li>
+                <!--lien pour le id de div(About us) dans le footer de la meme page-->
+            </ul>
+
+
+        </nav>
+
+    </div>
+
+
+    <div id="nav-verticale">
+        <!--dans cette navbar on trouve les grandes lignes de la vie de Milton Friedman -->
+        <nav>
+            <ul>
+                <!--
+                <ul>(unordred list = pour la liste sans l'ordre [sans num])     <li> (list item = élement de la liste)  
+                (href) pour les liens 
+                (title)pour l 'indication et ce qui est ecrit en blanc c'est le nom de la <li>   -->
+                <li><a href="../index.html" title="main page (Home)">Home</a></li>
+                <li><a href="./early-life.html" title="Early life">Early life</a></li>
+                <li><a href="./public-service.html" title="Public service">Public service</a></li>
+                <li><a href="./academic-career.html"
+                        title="Academic career(Early years - University of Chicago- A  Theory of the Consumption Function- Capitalism and Freedom)">Academic
+                        career</a></li>
+                <li><a href="./personal-life.html" title="Personal life (Retirement - Later life - Death)">Personal
+                        life</a></li>
+                <li><a href="./scholarly-contributions.html"
+                        title="Scholarly contributions (Economics - Statistics)">Scholarly contributions</a></li>
+                <li><a href="./policy-positions.html" title="Public policy (positions Federal Reserve and monetary  policy - Exchange rates 
+- School choice - Libertarianism and the Republican Party - Economic freedom)
+">Public policy positions</a></li>
+                <li><a href="./honors.html" title="Honors, recognition and legacy">Honors, recognition and legacy</a>
+                </li>
+                <li class="active"><a href="./criticism.html" title="Criticism">Criticism</a></li>
+                <li><a href="./bibliography.html" title="Selected bibliography">Selected bibliography
+                    </a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+    <main>
+        <header>
+            <!-- le header est une section d'introduction et contient dans notre projet 2 titre(de type <h1>)-->
+            <h1 class="milton">Milton Friedman</h1>
+            <h1>Criticism</h1>
+        </header>
+        <p>
+            Econometrician David Hendry criticized part of Friedman's and Anna Schwartz's 1982 Monetary Trends.
+            When asked about it during an interview with Icelandic TV in 1984, Friedman said that the criticism
+            referred to a different problem from that which he and Schwartz had tackled, and hence was irrelevant,
+            and pointed out the lack of consequential peer review amongst econometricians on Hendry's work. In
+            2006, Hendry said that Friedman was guilty of "serious errors" of misunderstanding that meant "the t-ratios
+            he reported for UK money demand were overstated by nearly 100 per cent", and said that, in a paper published
+            in 1991 with Neil Ericsson, he had refuted "almost every empirical claim ... made about UK money
+            demand" by Friedman and Schwartz. A 2004 paper updated and confirmed the validity of the
+            Hendry–Ericsson findings through 2000.
+        </p>
+        <p>
+            Although Keynesian Nobel laureate Paul Krugman praised Friedman as a "great economist and a great man" after
+            Friedman's death in 2006, and acknowledged his many, widely accepted contributions to empirical economics,
+            Krugman had been, and remains, a prominent critic of Friedman. Krugman has written that "he slipped all too
+            easily into claiming both that markets always work and that only markets work. It's extremely hard to find
+            cases in which Friedman acknowledged the possibility that markets could go wrong, or that government
+            intervention could serve a useful purpose." Others agree Friedman was not open enough to the
+            possibility of market inefficiencies. Economist Noah Smith argues that while Friedman made many
+            important contributions to economic theory not all of his ideas relating to macroeconomics have entirely
+            held up over the years and that too few people are willing to challenge them.
+        </p>
+        <p>
+            Political scientist C.B. Macpherson disagreed with Friedman's historical assessment of economic freedom
+            leading to political freedom, suggesting that political freedom actually gave way to economic freedom for
+            property-owning elites. He also challenged the notion that markets efficiently allocated resources and
+            rejected Friedman's definition of liberty. Friedman's positivist methodological approach to economics
+            has also been critiqued and debated. Finnish economist Uskali Mäki has argued some of his
+            assumptions were unrealistic and vague.
+        </p>
+        <p>
+            In her book <i>The Shock Doctrine</i>, author and social activist Naomi Klein criticized Friedman's economic
+            liberalism, identifying it with the principles that guided the economic restructuring that followed the
+            military coups in countries such as Chile and Argentina. Based on their assessments of the extent to which
+            what she describes as neoliberal policies contributed to income disparities and inequality, both Klein and
+            Noam Chomsky have suggested that the primary role of what they describe as neoliberalism was as an
+            ideological cover for capital accumulation by multinational corporations.
+        </p>
+    </main>
+    <aside>
+
+        <table>
+            <!-- dans ce tableau on trouve des brèves informations sur Milton Friedman (date de naissance -date de decée -activités ....) -->
+            <!-- dans le tableau <table> on trouve des lignes  <tr> et des colonnes soit en gras <th> sinon <td>. dans <td> on trouve le colspan par exemple (clospan="2")qui sert a dire que cette colonne va nous prendre la place de 2 colonnes,et on trouve rowspan par exemple (rowspan="5")qui sert a dire que cette colonne(la case) va nous prendre la place de 5 lignes et on trouve (align) pour determiner ou est-ce-qu'on l'a mis (sa position[right-left-center], et on trouve (bgcolor) c'est pour la couleur du background (du l'arrière plan)) ,on trouve  aussi <b> c'est pour mettre la phrase en gras   -->
+            <tbody>
+                <tr id="b">
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>Milton Friedman</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><img id="side-portrait" src="../assets/Milton_Friedman_1976.jpg"
+                            alt="Milton Friedman" title="Photograph of Milton Friedman"></td>
+                </tr>
+                <!--pour <img> on trouve le id pour la manipuler dans le css (src) c'est la source (l'emplacement de l'image) (alt) si on l'a trouve pas va s'afficher se qu il y a dans le (alt) -->
+
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>Biography</b></td>
+                </tr>
+                <tr height="2">
+                    <th>Born</th>
+                    <td>July 31, 1912. Brooklyn, New York, U.S.</td>
+                </tr>
+                <tr>
+                    <th>Died</th>
+                    <td>November 16, 2006 (aged 94). San Francisco, California, U.S.</td>
+                </tr>
+                <tr>
+                    <th>Nationality</th>
+                    <td>American</td>
+                </tr>
+
+
+
+                <tr>
+                    <th>Spouse</th>
+                    <td>Rose Friedman</td>
+                </tr>
+                <tr>
+                    <th>School or tradition</th>
+                    <td>Chicago School</td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>Activities</b></td>
+                </tr>
+                <tr>
+                    <th>Activities</th>
+                    <td>Economist,writer, statistician, university professor,essayist</td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>Awards</b></td>
+                </tr>
+                <tr>
+                    <td rowspan="5"><b>Awards</b></td>
+                    <td>-Member of the National Academy of Sciences (1973)</td>
+                </tr>
+                <tr>
+                    <td>-National Medal of Science (1988)
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>-Presidential Medal of Freedom (1988)</td>
+                </tr>
+                <tr>
+                    <td>-Nobel Memorial Prize in Economic Sciences (1976)</td>
+                </tr>
+                <tr>
+                    <td>-John Bates Clark Medal (1951)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>signature</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><img id="side-portrait" src="Milton_friedman_signature.png"
+                            alt="Milton Friedman" title="Milton friedman signature  "></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <!-- pour le footer c'est la derniere partie de notre code et de notre page et qui se situe tout-en-bas de la page qui sert a nous donner des infos sur l'éditeur de la page et les moyens de le contacter (telephone - social media)  -->
+        <div id="footer">
+            <div id="about_us">
+                <h3>About us</h3>
+                <p>BOUSSEKSOU Yacine et GUENDOUZ Akrem Mohamed 2 étudiants Algeriens de l'USTHB qui composent un binome
+                    ambitieux qui cherche a faciliter l'apprentissage et le rendre agréable et c'est pour cela on a
+                    concu ce site</p>
+
+            </div>
+            <div id="Contact">
+                <ul>
+                    <li>
+                        <h3>Contact</h3>
+                    </li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i> bousseksou.guendouz@gmail.com</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>
+                        +213 697230260</li>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> EL MADANIA -ALGER- ALGERIE</li>
+                </ul>
+            </div>
+
+            <div id="media">
+                <a href="https://www.facebook.com/"> <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/login?lang=fr"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="https://myaccount.google.com/"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+
+
+
+
+
+            </div>
+
+
+            <div id="small">
+
+
+                <small>all content on this mockup website is retrieved form the milton friedman page on Wikipedia®, and
+                    is not
+                    mine.</small>
+                <small> 2020 Copyright. All Rights Reserved. La dernière modification de cette page a été faite le 7
+                    avril 2020 à 23:12.
+                    © 2020 Bousseksou_Guendouz</small>
+            </div>
+
+
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<!-- on a déclaré que cette page est de type html et sa version 
+html 5 -->
+<html lang="fr">
+
+<head>
+    <!-- on a fixé la langue du document (français)-->
+    <meta charset="UTF-8"> <!-- pour spécifier l'encodage des caractères -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--pour contrôler la mise en page sur les navigateurs mobiles -->
+    <title>Contributions savantes</title>
+    <!--titre de la page (nom de la page dans le navigateur) -->
+    <link rel="stylesheet" href="../styles/style.css">
+    <!-- on lui a accordé une page CSS (style.css) qui se trouve dans le (dossier) styles pour la décoration(style)-->
+    <link rel="shortcut icon" href="../assets/pc-logo.png" />
+    <!--on a ajouté
+     une photo(pc-logo.png) dans l'entete comme un logo de la page qui se trouve dans le dossier (assets)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--pour pouvoir importer des icons(facebook-téléphone ...-->
+</head>
+
+<body>
+    <!-- dans le body on a declaré 2 navbars (nav-horisontale) et (nav-verticale)
+    et on a declaré des informations sur Milton Friedman et un tableau récapitulatif et on a le footer qui contient les moyens pour pouvoir nous contacter(Contact) et nos informations (About us) 
+ -->
+    <!-- si on trouve (title="") dans <a ...> ou dans <img ...> c'est pour que le   (title) sert a si on on met la souris sur l'image ou sur l'objet qui contient <a ...> (<li>-<i>) sans appuyer dessus va nous donnerce qu'on trouve dans le (title) c'est juste pour l' indication  -->
+    <!--<a> pour les liens  -->
+    <!--le (id) et (class) va nous servir beaucoup dans le style(CSS) et la difference entre eux c'est que (class) on peut   trouver le meme nom dans plusieurs tag mais le (id) c'est personalisé  )-->
+
+    <div id="nav-horisontale">
+        <!-- dans cette navbar on trouve [english-Français] pour choisir la langue et on trouve (contact) pour pouvoir nous contacter et (About us)pour avoir des informations sur nous-->
+        <nav>
+            <a href="./indexFR.html"><img id="logo" src="../assets/logo.png " title="La principale(Home)"></a>
+            <!-- on a ajouté un logo pour la page qui nous permet de revenir vers
+         la page (index) et le (title) sert a si on on met la souris sur le logo sans appuyer dessus va nous donner(main page (Home)) c'est juste pour l' indication -->
+            <!-- (active) pour la mettre en orange car comme si elle est selectionné -->
+            <ul>
+
+                <li><a href="scholarly-contributions.html" title="anglais">English</a></li>
+
+                <li class="active"><a href="Contributions savantes.html" title="french">Français</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <!--lien pour le id de div(contact) dans le footer de la meme page -->
+                <li><a href="#about_us">À propos de nous</a></li>
+                <!--lien pour le id de div(About us) dans le footer de la meme page-->
+            </ul>
+
+
+        </nav>
+
+    </div>
+
+
+    <div id="nav-verticale">
+        <!--dans cette navbar on trouve les grandes lignes de la vie de Milton Friedman -->
+        <nav>
+            <ul>
+                <!--
+                <ul>(unordred list = pour la liste sans l'ordre [sans num])     <li> (list item = élement de la liste)  
+                (href) pour les liens 
+                (title)pour l 'indication et ce qui est ecrit en blanc c'est le nom de la <li>   -->
+                <li><a href="./indexFR.html" title="La principale(Home)">La principale</a></li>
+                <li><a href="./jeunesse.html" title="jeunesse">Jeunesse</a></li>
+                <li><a href="./service publique.html" title="Service Publique">Service Public </a></li>
+                <li><a href="./la carrière universitaire.html"
+                        title="la carrière universitaire(Early years - University of Chicago- A  Theory of the Consumption Function- Capitalism and Freedom)">La
+                        Carière acadimique</a></li>
+                <li><a href="./Vie personnelle.html" title="La Vie personnelle (Retirement - Later life - Death)">La Vie
+                        personnelle</a></li>
+                <li class="active"><a href="./Contributions savantes.html"
+                        title="Contributions savantes (Economics - Statistics)">Contributions savantes</a></li>
+                <li><a href="./Positions de politique publique.html" title="Positions de politique publique (positions Federal Reserve and monetary  policy - Exchange rates 
+- School choice - Libertarianism and the Republican Party - Economic freedom)
+">Positions de politique publique</a></li>
+                <li><a href="./honneurs.html" title="Honneurs, reconnaissance et héritage">Honneurs, reconnaissance et
+                        héritage</a></li>
+                <li><a href="./critique.html" title="Critique">Critique</a></li>
+                <li><a href="./bibliographie.html" title="Bibliographie sélective">Bibliographie sélective
+                    </a></li>
+            </ul>
+        </nav>
+
+    </div>
+    <main>
+        <header>
+            <!-- le header est une section d'introduction et contient dans notre projet 2 titre(de type <h1>)-->
+            <h1 class="milton">Milton Friedman</h1>
+            <h1> Contributions savantes </h1>
+        </header>
+        <section>
+            <header>
+                <h2> Économie </h2>
+            </header>
+            <p>
+                Friedman était surtout connu pour raviver l'intérêt pour la masse monétaire en tant que
+                déterminant de la valeur nominale de la production, c'est-à-dire la théorie quantitative de la monnaie.
+                Le monétarisme est l'ensemble des vues associées à la modernité théorie des quantités. Ses origines
+                remontent à l'école de Salamanque du XVIe siècle ou même plus loin; cependant, la contribution de
+                Friedman est largement responsable de sa vulgarisation moderne. Il a co-écrit, avec Anna Schwartz, <i>
+                    Une histoire monétaire des États-Unis, 1867–1960 </i> (1963), qui était un examen du rôle de la
+                masse monétaire et de l'activité économique dans l'histoire des États-Unis. Une conclusion frappante de
+                leurs recherches ont examiné la manière dont les fluctuations de la masse monétaire contribuent aux
+                fluctuations économiques. Plusieurs études de régression avec David Meiselman au cours des années 1960
+                ont suggéré la primauté de l'argent l'offre sur l'investissement et les dépenses publiques pour
+                déterminer la consommation et la production. Ceux-ci ont contesté une vue dominante, mais largement non
+                testée, sur leur importance relative. La recherche empirique de Friedman et une théorie a soutenu la
+                conclusion que l'effet à court terme d'un changement de la masse monétaire était principalement sur la
+                production, mais que l'effet à plus long terme était principalement sur le niveau des prix.
+            </p>
+            <p>
+                Friedman était le principal promoteur de l'école monétariste d'économie. Il a soutenu
+                qu’il existe un
+                association étroite et stable entre l'inflation et la masse monétaire, principalement
+                que l'inflation pourrait être
+                évité grâce à une régulation appropriée du taux de croissance de la base monétaire. Il a
+                utilisé l'analogie
+                "larguer de l'argent d'un hélicoptère", afin d'éviter de traiter des mécanismes
+                d'injection d'argent et
+                d'autres facteurs qui compliqueraient trop ses modèles.
+            </p>
+            <p>
+                Les arguments de Friedman ont été conçus pour contrer le concept populaire d'inflation
+                poussée par les coûts,
+                l'augmentation du niveau général des prix à l'époque était le résultat d'une
+                augmentation du prix du pétrole, ou
+                en salaires; comme il l'a écrit: <br>
+                <q> L'inflation est toujours et partout un phénomène monétaire. </q>
+            </p>
+            <p>
+                Friedman a rejeté l'utilisation de la politique budgétaire comme outil de gestion de la
+                demande; et il a jugé que le
+                le rôle du gouvernement dans l'orientation de l'économie devrait être fortement
+                restreint. Friedman a écrit
+                largement sur la Grande Dépression, et il a appelé la période 1929-1933 la Grande
+                Contraction. Il a fait valoir
+                que la Dépression avait été causée par un choc financier ordinaire dont la durée et la
+                gravité étaient
+                considérablement augmentée par la contraction de la masse monétaire qui a suivi,
+                provoquée par les politiques
+                les directeurs de la Réserve fédérale. <br>
+                <q> La Fed était en grande partie responsable de la conversion de ce qui aurait pu être
+                    une récession des variétés de jardin,
+                        bien que peut-être assez grave, dans une catastrophe majeure. Au lieu d'utiliser
+                    ses pouvoirs pour
+                        compenser la dépression, elle a présidé à une baisse d'un tiers de la quantité
+                    de monnaie de 1929 à
+                        1933 ... Loin que la dépression soit un échec du système de la libre entreprise,
+                    ce fut une tragique
+                        échec du gouvernement.
+                </q>
+            </p>
+            <p>
+                Friedman a également plaidé pour l'arrêt de l'intervention du gouvernement sur les marchés des devises,
+                engendrant ainsi
+                une énorme littérature sur le sujet, ainsi que la promotion de la pratique des échanges
+                librement flottants
+                les taux. Son ami proche George Stigler a expliqué: "Comme il est de coutume en science,
+                il n'a pas remporté
+                victoire, en partie parce que la recherche a été dirigée dans des directions différentes
+                par la théorie du rationnel
+                attentes, une approche plus récente développée par Robert Lucas, également à
+                l'Université de Chicago.
+                La relation entre Friedman et Lucas, ou la nouvelle macroéconomie classique dans son
+                ensemble, était très complexe.
+                La courbe de Friedmanian Phillips était un point de départ intéressant pour Lucas, mais
+                il s'est vite rendu compte que
+                la solution apportée par Friedman n'était pas tout à fait satisfaisante. Lucas a élaboré
+                une nouvelle approche dans laquelle
+                des attentes rationnelles ont été présumées au lieu des attentes adaptatives
+                fritmaniennes. En raison de ce
+                reformulation, l'histoire dans laquelle la théorie de la nouvelle courbe de Phillips
+                classique a été radicalement intégrée
+                modifié. Cette modification a cependant eu un effet significatif sur la propre approche
+                de Friedman.
+                résultat, la théorie de la courbe de Friedmanian Phillips a également changé. De plus,
+                le nouveau Neil classique
+                Wallace, qui était un étudiant diplômé à l'Université de Chicago entre 1960 et 1963,
+                considérait
+                Les cours théoriques de Friedman comme un gâchis. Cette évaluation indique clairement la
+                relation rompue
+                entre le monétarisme de Friedman et la nouvelle macroéconomie classique.
+            </p>
+            <p>
+                Cependant, en dépit d'être un partisan du marché libre, Milton Friedman pensait que le
+                gouvernement avait
+                deux rôles cruciaux. Dans une interview avec Phil Donahue, Milton Friedman a fait valoir
+                que "les deux
+                les fonctions d'un gouvernement sont de protéger la nation contre l'ennemi étranger et
+                de protéger les citoyens
+                contre ses semblables. ”. Il a également admis que, bien que la privatisation de la
+                défense nationale puisse
+                réduire le coût global, il n'a pas encore réfléchi à un moyen de rendre possible cette
+                privatisation.
+            </p>
+        </section>
+        <section>
+            <header>
+                <h2> Statistiques </h2>
+
+            </header>
+            <p>
+                L'échantillonnage séquentiel est l'une de ses contributions les plus célèbres à la
+                statistique. Friedman a fait un travail statistique
+                à la Division of War Research de Columbia, où lui et ses collègues ont mis au point la
+                technique. Il
+                est devenu, selon les mots de <i> The New Palgrave Dictionary of Economics </i>,
+                "l'analyse standard de la qualité
+                contrôle d'inspection ". Le dictionnaire ajoute:" Comme beaucoup de contributions de
+                Friedman, rétrospectivement, il semble
+                remarquablement simple et évident à appliquer des idées économiques de base au contrôle
+                de la qualité; mais c’est
+                mesure de son génie. "
+            </p>
+        </section>
+    </main>
+
+
+
+
+
+
+
+    <aside>
+
+        <table>
+            <tbody>
+                <tr id="b">
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>Milton Friedman</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><img id="side-portrait" src="../assets/Milton_Friedman_1976.jpg"
+                            alt="Milton Friedman" title="Photo de Milton Friedman"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>Biographie</b></td>
+                </tr>
+
+                <tr>
+                    <th> Naissance </th>
+
+                    <td> 31 juillet 1912. Brooklyn, New York, États-Unis </td>
+                </tr>
+
+                <tr>
+
+                    <th>Décès</th>
+
+                    <td> 16 novembre 2006 (94 ans). San Francisco, Californie, États-Unis </td>
+                </tr>
+
+                <tr>
+
+                    <th> Nationalité </th>
+
+                    <td> Américain </td>
+                </tr>
+
+                <tr>
+
+                    <th> Conjointe </th>
+
+                    <td> Rose Friedman </td>
+                </tr>
+
+                <tr>
+
+                    <th> A travaillé pour </th>
+
+                    <td> Chicago School </td>
+                </tr>
+
+                <tr>
+
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"> <b> Activités </b> </td>
+                </tr>
+
+                <tr>
+
+                    <th> Activités </th>
+
+                    <td> Économiste, écrivain, statisticien, professeur d'université, essayiste </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA">
+                        <b> Distinctions </b> </td>
+                </tr>
+
+                <tr>
+                    <td rowspan="5" align="left" valign="top"><b>Distinctions</b></td>
+                    <td>-Médaille John Bates Clark (1951)</td>
+                </tr>
+                <tr>
+                    <td>-Membre de l'Académie nationale des sciences (1973)
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>-Prix Nobel d'économie (1976)</td>
+                </tr>
+                <tr>
+                    <td>-Médaille présidentielle de la Liberté (1988)</td>
+                </tr>
+                <tr>
+                    <td>-National Medal of Science (1988)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"> <b> Signature </b> </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center"> <img id="side-portrait" src="Milton_friedman_signature.png"
+                            alt="Milton Friedman" title=" signature de Milton friedman"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </aside>
+    <footer>
+        <!-- pour le footer c'est la derniere partie de notre code et de notre page et qui se situe tout-en-bas de la page qui sert a nous donner des infos sur l'éditeur de la page et les moyens de le contacter (telephone - social media)  -->
+        <div id="footer">
+            <div id="about_us">
+                <h3>À propos de nous</h3>
+                <p>BOUSSEKSOU Yacine et GUENDOUZ Akrem Mohamed 2 étudiants Algeriens de l'USTHB qui composent un binome
+                    ambitieux qui cherche a faciliter l'apprentissage et le rendre agréable et c'est pour cela on a
+                    concu ce site
+                </p>
+
+            </div>
+            <div id="Contact">
+                <ul>
+                    <li>
+                        <h3>Contact</h3>
+                    </li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i> bousseksou.guendouz@gmail.com</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>
+                        +213 697230260</li>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> EL MADANIA -ALGER- ALGERIE</li>
+                </ul>
+            </div>
+
+            <div id="media">
+                <a href="https://www.facebook.com/"> <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/login?lang=fr"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="https://myaccount.google.com/"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+
+
+
+
+
+            </div>
+
+
+            <div id="small">
+
+
+                <small>all content on this mockup website is retrieved form the milton friedman page on Wikipedia®, and
+                    is not
+                    mine.</small>
+                <small> 2020 Copyright. All Rights Reserved. La dernière modification de cette page a été faite le 7
+                    avril 2020 à 23:12.
+                    © 2020 Bousseksou_Guendouz</small>
+            </div>
+
+
+
+        </div>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>

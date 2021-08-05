@@ -1,0 +1,354 @@
+/* dans le CSS on trouve 
+1-nom de balise:comme (html-body-main-...)qui s'ecrit comme il est;on le trouve entre < > dans le html ; 
+2-nom de id:comme (nav-verticale-nav-horisontale-...)qui s'ecrit apres #;on le trouve(id="...") dans le html;
+3-nom de class: comme(active-milton-titre-...)qui s'ecrit apres un point  ;on le trouve (class="...") dans le html
+
+
+
+*/
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+
+/**/
+
+body {
+    margin: 0;
+    /* définir la taille des marges sur les quatre côtés de l'élément*/
+    padding: 0;
+    /* définir les écarts de remplissage */
+    background: white;
+    /*la couleur du l'arrière plan */
+}
+
+/**/
+
+#nav-verticale {
+    float: left;
+    /*sa position a gauche*/
+    width: 17%;
+    /**/
+    padding: 0px;
+    /*définir les écarts de remplissage*/
+    min-width: 240px;
+    /**/
+    left: 0px;
+    /**/
+    height: 2400px;
+    /**/
+    background: #313131;
+    /*la couleur du l'arrière plan*/
+}
+
+/**/
+
+/**/
+
+#nav-verticale ul {
+    height: 100%;
+    /**/
+    padding: 0;
+    /*définir les écarts de remplissage*/
+}
+
+/**/
+
+#nav-verticale ul li a {
+    display: block;
+    /**/
+    color: #FC8105;
+}
+
+/**/
+
+#nav-verticale ul li a:hover {
+    background-color: #FC8105;
+    /*la couleur du */
+    color: #313131;
+    /*la couleur du font*/
+    transition: 0.9s ease;
+}
+
+/**/
+
+#nav-verticale li {
+    border-bottom: 0.1px solid;
+    /*la bordure est de 0.1 px ligne continue */
+    border-color: rgb(223, 233, 218);
+    /*la couleur de la bordure*/
+    list-style: none;
+    /**/
+    position: relative;
+    /**/
+    width: 100%;
+    /**/
+}
+
+/**/
+
+#nav-verticale a {
+    display: block;
+    /**/
+    padding: 10px 30px;
+    /**/
+    color: #4d4e53;
+    /*la couleur du font*/
+    text-decoration: none;
+    /**/
+    cursor: pointer;
+    /**/
+}
+
+/**/
+
+main {
+    float: left;
+    /*sa position est a gauche*/
+    width: 56%;
+    /**/
+    margin-left: 15px;
+    /* définir la taille de marge sur la droite de l'élément*/
+    margin-right: 10px;
+    /*définir la taille de marge sur la droite de l'élément*/
+}
+
+/**/
+
+table {
+    float: right;
+    /*sa position  est a droite*/
+    border: 0.5px solid black;
+    /*la bordure est de 0.5 px ligne continue en noire*/
+    background-color: #6394EF;
+    /*la couleur du l'arrière plan*/
+    font-size: 18px;
+    /**/
+}
+
+/**/
+
+#nav-horisontale {
+    width: 100%;
+    /**/
+    height: 120px;
+    /**/
+    background-color: #313131;
+    /*la couleur du l'arrière plan*/
+    line-height: 80px;
+    /**/
+}
+
+#nav-horisontale ul {
+    margin-right: 30px;
+    /*définir la taille de marge sur la droite de l'élément*/
+    float: right;
+    /*sa position  est a droite*/
+    padding-top: 20px;
+    /**/
+}
+
+#nav-horisontale ul li {
+    list-style: none;
+    /**/
+    display: inline-block;
+    /**/
+}
+
+#nav-horisontale ul li a:hover {
+    background-color: #FC8105;
+    /*la couleur du l'arrière plan*/
+    color: #313131;
+    /*la couleur du font est en blanc*/
+    transition: 0.6s ease;
+}
+
+/**/
+
+/**/
+
+#nav-horisontale ul li a {
+    text-decoration: none;
+    /**/
+    padding: 30px;
+    /**/
+    color: #FC8105;
+    /*la couleur du font*/
+}
+
+#nav-horisontale li.active a, #nav-verticale li.active a {
+    background-color: #FC8105;
+    /*la couleur du l'arrière plan*/
+    color: #313131;
+}
+
+*/ tr th {
+    border: none;
+    /**/
+}
+
+/**/
+
+tr {
+    border: none;
+    /**/
+    text-align: left;
+    /**/
+    vertical-align: top;
+    /**/
+}
+
+tr td {
+    border: none;
+    /**/
+    padding-bottom: 7px;
+    /**/
+    /**/
+}
+
+aside {
+    /**/
+    padding-top: 200px;
+    /**/
+    float: right;
+    /*sa position est  a droite*/
+    vertical-align: top;
+    /**/
+    width: 22%;
+    /**/
+}
+
+/**/
+
+footer {
+    background-color: #494949;
+    /*la couleur du l'arrière plan*/
+    clear: both;
+    /**/
+    width: 100%;
+    /**/
+    padding-bottom: 160px;
+    /**/
+}
+
+#footer {
+    padding-left: 250px;
+    /**/
+    padding-right: 150px;
+    /**/
+    padding-top: 20px;
+    /**/
+    padding-bottom: 20px;
+    /**/
+}
+
+#contact {
+    float: right;
+    /*sa position est  a droite*/
+    padding-left: 200px;
+    /**/
+    padding-top: 20px;
+    /**/
+    padding-bottom: 20px;
+}
+
+/**/
+
+#contact ul {
+    /**/
+    list-style: none;
+    /**/
+}
+
+/**/
+
+#small {
+    padding-right: 500px;
+    /**/
+}
+
+/**/
+
+#media a {
+    text-decoration: none;
+    /**/
+}
+
+/**/
+
+#media i {
+    height: 30px;
+    /**/
+    width: 15px;
+    /**/
+    padding: 7px;
+    /**/
+    color: #000000;
+    /*la couleur du font est en noir*/
+    /**/
+}
+
+/**/
+
+#side-portrait {
+    /**/
+    width: 90%;
+    /**/
+    height: auto;
+    /**/
+}
+
+
+
+#rep-img {
+    float: left;
+    /*sa position a gauche*/
+    height: 300px;
+    /**/
+    width: auto;
+    /**/
+    padding-right: 20px;
+    /*définir l' écart  de remplissage du coté droit*/
+}
+
+/**/
+
+#frst-img {
+    width: 300px;
+    /**/
+    height: auto;
+    /**/
+    border-radius: 50%;
+    /**/
+}
+
+/**/
+
+.milton {
+    text-align: center;
+    /**/
+    padding-top: 0px;
+    /*définir l' écart  de remplissage du haut*/
+    border-bottom: 1px solid black/*la bordure est de 1 px ligne continue en noire*/
+}
+
+/**/
+
+h2, h3 {
+    text-decoration: underline;
+    /*souligner les <h2><h3> et .titre*/
+}
+
+/**/
+
+#logo {
+    padding-top: 10px;
+    /*définir l' écart  de remplissage du haut*/
+}
+
+/**/
+
+#about_us {
+    padding-right: 500px;
+    /*définir l'écart de remplissage du coté droit */
+}

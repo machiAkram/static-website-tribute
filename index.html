@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<!-- on a déclaré que cette page est de type html et sa version 
+html 5 -->
+<html lang="en">
+
+<head>
+    <!-- on a fixé la langue du document (anglais)-->
+    <meta charset="UTF-8"> <!-- pour spécifier l'encodage des caractères -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--pour contrôler la mise en page sur les navigateurs mobiles -->
+    <title>index</title>
+    <!--titre de la page (nom de la page dans le navigateur) -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- on lui a accordé une page CSS (style.css) qui se trouve dans le (dossier) styles pour la décoration(style)-->
+    <link rel="shortcut icon" href="./assets/pc-logo.png" />
+    <!--on a ajouté
+     une photo(pc-logo.png) dans l'entete comme un logo de la page qui se trouve dans le dossier (assets)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--pour pouvoir importer des icons(facebook-téléphone ...-->
+</head>
+
+<body>
+    <!-- dans le body on a declaré 2 navbars (nav-horisontale) et (nav-verticale)
+    et on a declaré des informations sur Milton Friedman et un tableau récapitulatif et on a le footer qui contient les moyens pour pouvoir nous contacter(Contact) et nos informations (About us) 
+ -->
+    <!-- si on trouve (title="") dans <a ...> ou dans <img ...> c'est pour que le   (title) sert a si on on met la souris sur l'image ou sur l'objet qui contient <a ...> (<li>-<i>) sans appuyer dessus va nous donnerce qu'on trouve dans le (title) c'est juste pour l' indication  -->
+    <!--<a> pour les liens  -->
+    <!--le (id) et (class) va nous servir beaucoup dans le style(CSS) et la difference entre eux c'est que (class) on peut   trouver le meme nom dans plusieurs tag mais le (id) c'est personalisé  )-->
+
+    <div id="nav-horisontale">
+        <!-- dans cette navbar on trouve [english-Français] pour choisir la langue et on trouve (contact) pour pouvoir nous contacter et (About us)pour avoir des informations sur nous-->
+        <nav>
+            <a href="./index.html"><img id="logo" src="./assets/logo.png " title="main page (Home)"></a>
+            <!-- on a ajouté un logo pour la page qui nous permet de revenir vers
+         la page (index) et le (title) sert a si on on met la souris sur le logo sans appuyer dessus va nous donner(main page (Home)) c'est juste pour l' indication -->
+            <ul>
+
+                <li class="active"><a href="index.html" title="anglais">English</a></li>
+                <!-- (active) pour la mettre en bleu car en est sur une page en anglais -->
+                <li><a href="./pages/indexFR.html" title="french">Français</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <!--lien pour le id de div(contact) dans le footer de la meme page -->
+                <li><a href="#about_us">About us</a></li>
+                <!--lien pour le id de div(About us) dans le footer de la meme page-->
+            </ul>
+
+
+        </nav>
+
+    </div>
+
+
+    <div id="nav-verticale">
+        <!--dans cette navbar on trouve les grandes lignes de la vie de Milton Friedman -->
+        <nav>
+            <ul>
+                <!--
+                <ul>(unordred list = pour la liste sans l'ordre [sans num])     <li> (list item = élement de la liste)  
+                (href) pour les liens 
+                (title)pour l 'indication et ce qui est ecrit en blanc c'est le nom de la <li>   -->
+                <li class="active"><a href="./index.html" title="main page (Home)">Home</a></li>
+                <li><a href="./pages/early-life.html" title="Early life">Early life</a></li>
+                <li><a href="./pages/public-service.html" title="Public service">Public service</a></li>
+                <li><a href="./pages/academic-career.html"
+                        title="Academic career(Early years - University of Chicago- A  Theory of the Consumption Function- Capitalism and Freedom)">Academic
+                        career</a></li>
+                <li><a href="./pages/personal-life.html"
+                        title="Personal life (Retirement - Later life - Death)">Personal life</a></li>
+                <li><a href="./pages/scholarly-contributions.html"
+                        title="Scholarly contributions (Economics - Statistics)">Scholarly contributions</a></li>
+                <li><a href="./pages/policy-positions.html" title="Public policy (positions Federal Reserve and monetary  policy - Exchange rates 
+- School choice - Libertarianism and the Republican Party - Economic freedom)
+">Public policy positions</a></li>
+                <li><a href="./pages/honors.html" title="Honors, recognition and legacy">Honors, recognition and
+                        legacy</a></li>
+                <li><a href="./pages/criticism.html" title="Criticism">Criticism</a></li>
+                <li><a href="./pages/bibliography.html" title="Selected bibliography">Selected bibliography
+                    </a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+    <main>
+        <header>
+            <h1>
+                Milton Friedman
+            </h1>
+            <div>
+                <img id="frst-img" src="./assets/720px-Portrait_of_Milton_Friedman.jpg"
+                    alt="Portrait of Milton Friedman.">
+                <q>There's no such thing as a free lunch.</q></div>
+        </header>
+        <p>
+            <b>Milton Friedman</b> (/ˈfriːdmən/; July 31, 1912 – November 16, 2006) was an American economist who
+            received the 1976
+            Nobel Memorial Prize in Economic Sciences for his research on consumption analysis, monetary history and
+            theory
+            and the complexity of stabilization policy. With George Stigler and others, Friedman was among the
+            intellectual leaders of the Chicago school of economics, a neoclassical school of economic thought
+            associated
+            with the work of the faculty at the University of Chicago that rejected Keynesianism in favor of monetarism
+            until the mid-1970s, when it turned to new classical macroeconomics heavily based on the concept of rational
+            expectations. Several students and young professors who were recruited or mentored by Friedman at Chicago
+            went
+            on to become leading economists, including Gary Becker, Robert Fogel, Thomas Sowell and Robert Lucas Jr.
+        </p>
+        <p>
+            Friedman's challenges to what he later called "naive Keynesian" theory began with his 1950s reinterpretation
+            of the consumption function. In the 1960s, he became the main advocate opposing Keynesian government
+            policies
+            and described his approach (along with mainstream economics) as using "Keynesian language and apparatus" yet
+            rejecting its "initial" conclusions. He theorized that there existed a "natural" rate of unemployment and
+            argued that unemployment below this rate would cause inflation to accelerate. He argued that the Phillips
+            curve was in the long run vertical at the "natural rate" and predicted what would come to be known as
+            stagflation. Friedman promoted an alternative macroeconomic viewpoint known as "monetarism" and argued that
+            a steady, small expansion of the money supply was the preferred policy. His ideas concerning monetary
+            policy, taxation, privatization and deregulation influenced government policies, especially during the
+            1980s.
+            His monetary theory influenced the Federal Reserve's response to the global financial crisis of 2007–2008.
+        </p>
+        <p>
+            Friedman was an advisor to Republican President Ronald Reagan and Conservative British Prime Minister
+            Margaret Thatcher. His political philosophy extolled the virtues of a free market economic system with
+            minimal intervention. He once stated that his role in eliminating conscription in the United States was his
+            proudest accomplishment. In his 1962 book Capitalism and Freedom, Friedman advocated policies such as a
+            volunteer military, freely floating exchange rates, abolition of medical licenses, a negative income tax and
+            school vouchers and opposed the war on drugs. His support for school choice led him to found the Friedman
+            Foundation for Educational Choice, later renamed EdChoice.
+        </p>
+        <p>
+            Friedman's works include monographs, books, scholarly articles, papers, magazine columns, television
+            programs,
+            and lectures, and cover a broad range of economic topics and public policy issues. His books and essays have
+            had global influence, including in former communist states. A survey of economists ranked
+            Friedman as the second-most popular economist of the 20th century, following only John Maynard Keynes, and
+            The Economist described him as "the most influential economist of the second half of the 20th century ...
+            possibly of all of it".
+        </p>
+    </main>
+
+
+    <aside>
+
+        <table>
+            <!-- dans ce tableau on trouve des brèves informations sur Milton Friedman (date de naissance -date de decée -activités ....) -->
+            <!-- dans le tableau <table> on trouve des lignes  <tr> et des colonnes soit en gras <th> sinon <td>. dans <td> on trouve le colspan par exemple (clospan="2")qui sert a dire que cette colonne va nous prendre la place de 2 colonnes,et on trouve rowspan par exemple (rowspan="5")qui sert a dire que cette colonne(la case) va nous prendre la place de 5 lignes et on trouve (align) pour determiner ou est-ce-qu'on l'a mis (sa position[right-left-center], et on trouve (bgcolor) c'est pour la couleur du background (du l'arrière plan)) ,on trouve  aussi <b> c'est pour mettre la phrase en gras   -->
+            <tbody>
+                <tr id="b">
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>Milton Friedman</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><img id="side-portrait" src="./assets/Milton_Friedman_1976.jpg"
+                            alt="Milton Friedman" title="Photograph of Milton Friedman"></td>
+                </tr>
+                <!--pour <img> on trouve le id pour la manipuler dans le css (src) c'est la source (l'emplacement de l'image) (alt) si on l'a trouve pas va s'afficher se qu il y a dans le (alt) -->
+
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>Biography</b></td>
+                </tr>
+                <tr height="2">
+                    <th>Born</th>
+                    <td>July 31, 1912. Brooklyn, New York, U.S.</td>
+                </tr>
+                <tr>
+                    <th>Died</th>
+                    <td>November 16, 2006 (aged 94). San Francisco, California, U.S.</td>
+                </tr>
+                <tr>
+                    <th>Nationality</th>
+                    <td>American</td>
+                </tr>
+
+
+
+                <tr>
+                    <th>Spouse</th>
+                    <td>Rose Friedman</td>
+                </tr>
+                <tr>
+                    <th>School or tradition</th>
+                    <td>Chicago School</td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>Activities</b></td>
+                </tr>
+                <tr>
+                    <th>Activities</th>
+                    <td>Economist,writer, statistician, university professor,essayist</td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>Awards</b></td>
+                </tr>
+                <tr>
+                    <td rowspan="5"><b>Awards</b></td>
+                    <td>-Member of the National Academy of Sciences (1973)</td>
+                </tr>
+                <tr>
+                    <td>-National Medal of Science (1988)
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>-Presidential Medal of Freedom (1988)</td>
+                </tr>
+                <tr>
+                    <td>-Nobel Memorial Prize in Economic Sciences (1976)</td>
+                </tr>
+                <tr>
+                    <td>-John Bates Clark Medal (1951)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center" bgcolor="#397DFA"><b>signature</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><img id="side-portrait" src="./pages/Milton_friedman_signature.png"
+                            alt="Milton Friedman" title="Milton friedman signature  "></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <!-- pour le footer c'est la derniere partie de notre code et de notre page et qui se situe tout-en-bas de la page qui sert a nous donner des infos sur l'éditeur de la page et les moyens de le contacter (telephone - social media)  -->
+        <div id="footer">
+            <div id="about_us">
+                <h3>About us</h3>
+                <p>BOUSSEKSOU Yacine et GUENDOUZ Akrem Mohamed 2 étudiants Algerien de l'USTHB qui composent un binôme
+                    ---------------------------------------------- </p>
+
+            </div>
+            <div id="Contact">
+                <ul>
+                    <li>
+                        <h3>Contact</h3>
+                    </li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i> bousseksou.guendouz@gmail.com</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>
+                        +213 697230260</li>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> EL MADANIA -ALGER- ALGERIE</li>
+                </ul>
+            </div>
+
+            <div id="media">
+                <a href="https://www.facebook.com/"> <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/login?lang=fr"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="https://myaccount.google.com/"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+
+
+
+
+
+            </div>
+
+
+            <div id="small">
+
+
+                <small>all content on this mockup website is retrieved form the milton friedman page on Wikipedia®, and
+                    is not
+                    mine.</small>
+                <small> 2020 Copyright. All Rights Reserved. La dernière modification de cette page a été faite le 7
+                    avril 2020 à 23:12.
+                    © 2020 Bousseksou_Guendouz</small>
+            </div>
+
+
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
